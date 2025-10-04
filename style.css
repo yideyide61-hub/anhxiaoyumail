@@ -1,0 +1,84 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #111827;
+  color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1f2937;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #60a5fa;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.email-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#emailDisplay {
+  font-size: 1.1em;
+  margin-top: 10px;
+  color: #a5b4fc;
+}
+
+.inbox {
+  background: #374151;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.message {
+  background: #1f2937;
+  border: 1px solid #4b5563;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.msg-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.msg-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.msg-buttons button {
+  padding: 5px 10px;
+  background-color: #10b981;
+}
+
+.msg-buttons button.delete {
+  background-color: #ef4444;
+}
+
+.msg-buttons button:hover {
+  opacity: 0.9;
+}
